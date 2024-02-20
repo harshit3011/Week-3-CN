@@ -1,0 +1,36 @@
+//HTML
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Using Animate.css</title>
+    <!-- Link to Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Add Animate.css classes to the div -->
+    <div id="div1" class="animate__animated animate__fadeIn animate__infinite">
+      Animation Fade In
+    </div>
+  </body>
+</html>
+
+
+//CSS
+
+#div1 {
+  height: 40px;
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-size: 30px;
+  border: solid black;
+  border-width: 3px 0px 3px 0px;
+  text-align: center;
+  padding: 5px;
+}
